@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif; 
+    color: #767689; 
+}
+
+select {
+    font-size: 17px; 
+    color: #767689; 
+}
+
+option {
+    font-size: 17px; 
+}
+
+#target, #chaser {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.dropdown-container {
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.graph {
+    display: inline-block;
+}
+
+#position_graph{
+    height: 400px;
+    width: 1300px;
+    position: relative;
+}
+
+#multilple_graph{
+    height: 400px;
+    width: 1300px;
+    position: relative;
+}
+
+#series{
+    width: 400px;
+    display: inline-block;
+}
+
+
+
+.graph_multiple{
+    margin-top: 100px;
+    display: inline-block;
+}
+
+#tabs {
+    font-family: sans-serif; 
+    color: #767689;
+    font-size: 15px;
+    float: right;
+    
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.tab-button {
+    background: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    padding: 4px 10px;
+    margin: 0 10px;
+    color: #767689; 
+    margin-top: -8px;
+}
+
+.tab-button.active {
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+
+text {
+    font-family: sans-serif; 
+    color: #767689; 
+}
+

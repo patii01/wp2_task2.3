@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif; 
+    color: #767689; 
+}
+
+h3 {
+    font-family: sans-serif; 
+    color: #767689; 
+}
+
+.dropdown-container {
+    margin-right: 25px;
+    margin-left: 250px;
+
+}
+
+.graph {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#position_graph{
+    height: 400px;
+    width: 1300px;
+    position: relative;
+}
+
+#multiple_graph{
+    width: 1300px;
+    height: 400px;
+    position: relative;
+}
+
+.eixos {
+    margin-bottom: 0px;
+    display: flex;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#selection {
+    width: 400px;
+    margin-top: 10px;
+}
+
+#compare_series {
+    width: 400px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.tab-button {
+    background: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    padding: 4px 10px;
+    margin: 0 10px;
+    color: #767689; 
+    margin-top: -8px;
+}
+
+.tab-button.active {
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+.switch-container{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.info-button{
+    display: flex;
+    align-items: center;
+}
+
+#hover-target{
+    margin-left: 10px;
+}
+
+.circle-button {
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    border: 1px solid #767689;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+.popover-box .popover-header {
+    background-color: #f7f7f7b8;
+    border-bottom: 1px solid #f7f7f7b8;
+}
+
+.popover-box .popover-body {
+    padding: 10px;
+    background-color: #f7f7f7f0;
+}
+
+select {
+    font-size: 17px; 
+    color: #767689; 
+}
+
+option {
+    font-size: 17px; 
+}
+
+text {
+    font-family: sans-serif; 
+    color: #767689; 
+}

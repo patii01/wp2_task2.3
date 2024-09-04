@@ -1,0 +1,88 @@
+/* Font */
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), url(fonts/Gilroy-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'), url(fonts/Gilroy-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'), url(fonts/Gilroy-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy'), url(fonts/Gilroy-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Popinns'), url(fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+
+/* Eixos */
+.eixos-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    float: right;
+}
+.eixos-button {
+    background: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 10px;
+    margin: 0 10px;
+    color: #767689; 
+    margin-top: -8px;
+}
+.eixos-button.active {
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+.eixos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    float: right;
+}
+.tab-button {
+    background: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 10px;
+    margin: 0 10px;
+    color: #767689; 
+    margin-top: -8px;
+}
+
+#update_plot{
+    height: 400px;
+    width: 1300px;
+    position: relative;
+}
+
+body {
+    font-family: 'Gilroy', sans-serif; 
+    color: #767689; 
+}
+
+h3 {
+    font-family: 'Gilroy', sans-serif; 
+    color: #000031; 
+}
+
+text {
+    font-family: 'Gilroy', sans-serif; 
+    color: #767689; 
+}

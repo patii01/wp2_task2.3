@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <label for="dropdown1">Target:</label>
+        <select id="dropdown1">
+            <option value="" selected disabled></option>
+            <option value="data1">Dados 1</option>
+            <option value="data2">Dados 2</option>
+            <option value="dados3">Dados 3</option>
+            <option value="dados4">Dados 4</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+
+        <label for="dropdown2">Chaser:</label>
+        <select id="dropdown2">
+            <option value="" selected disabled></option>
+            <option value="data1">Dados 1</option>
+            <option value="data2">Dados 2</option>
+            <option value="dados3">Dados 3</option>
+            <option value="dados4">Dados 4</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+
+    <!-- Contêiner para o gráfico principal -->
+    <div id="main" style="width: 600px; height: 400px; float: left; margin-right: 20px;"></div>
+
+    <!-- Contêineres para os gráficos adicionais -->
+    <div id="additionalCharts" style="display: flex; flex-wrap: wrap; max-height: 400px; overflow-y:auto;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
